@@ -1,7 +1,12 @@
-document.querySelector('comp').innerHtml = "Joes Bed and breakfist"
+let header = document.querySelector('.comp') 
+header.innerHTML = "Joes Bed and breakfist"
+
+let header1 = document.querySelector('.header2') 
+header1.innerHTML = "Joes Bed and breakfist the best place in utah"
 
 let userName = prompt('what is you name?')
 
-let message = 'Hello ' + userName + 'this is your username'
+let message = 'Hello ' + userName + ' welcome to the best stay in salt lake city, Utah'
 
-document.querySelector('mess').innerHtml = message
+let mess = document.querySelector('.mess')
+mess.innerHTML = message
